@@ -573,7 +573,7 @@ section {
 .hero-bg {
     position: absolute;
     inset: 0;
-    background: url('web.png') right 30% / cover no-repeat;
+    background: url('web.png') center center / cover no-repeat;
     z-index: 0;
 }
 
@@ -581,7 +581,7 @@ section {
     content: '';
     position: absolute;
     inset: 0;
-    background: linear-gradient(105deg, rgba(248, 250, 252, 0.92) 0%, rgba(248, 250, 252, 0.7) 40%, rgba(248, 250, 252, 0.2) 70%, transparent 100%);
+    display: none;
 }
 
 .hero-content {
@@ -1474,7 +1474,7 @@ footer {
     }
 
     .hero-bg {
-        background-position: right top;
+        background-position: center center;
     }
 
     .hero-content {
