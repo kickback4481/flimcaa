@@ -283,7 +283,7 @@ section {
 .nav-links {
     display: flex;
     align-items: center;
-    gap: 3rem;
+    gap: 1.5rem;
 }
 
 .nav-links a {
@@ -291,7 +291,7 @@ section {
     text-decoration: none;
     font-family: var(--font-heading);
     font-weight: 500;
-    font-size: 1.3rem;
+    font-size: 1.15rem;
     position: relative;
     padding: 0.3rem 0;
     transition: var(--transition-fast);
@@ -1418,6 +1418,18 @@ footer {
     .about-grid {
         grid-template-columns: 1fr 1fr;
         align-items: stretch;
+    }
+}
+
+@media (max-width: 1200px) {
+    .nav-links {
+        gap: 1rem;
+    }
+    .nav-links a {
+        font-size: 1.05rem;
+    }
+    .nav-container {
+        padding: 0 1rem;
     }
 }
 
