@@ -57,7 +57,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-}
+
 
 html {
     scroll-behavior: smooth;
@@ -745,7 +745,6 @@ section {
     grid-template-columns: repeat(3, 1fr);
     gap: 2rem;
 }
-
 .service-card {
     background: var(--glass-bg-dark);
     border: 1px solid rgba(255, 255, 255, 0.06);
@@ -840,14 +839,7 @@ section {
 }
 
 /* EBOO vs EBO₂ Comparison */
-.service-image[alt="UBI Therapy"],
-.service-image[alt="EBOO"],
-.service-image[alt="EBO₂"] {
-    height: 220px;
-    object-position: center 20px;
-    object-fit: contain;
-    background: #ffffff;
-}
+/* Therapy image specific styling removed to allow default object-fit: cover */
 
 .therapies-diff {
     display: flex;
@@ -1398,6 +1390,7 @@ footer {
 
     .mobile-menu-toggle {
         display: flex;
+        right: 1.25rem;
     }
 
     .services-grid {
@@ -1483,12 +1476,7 @@ footer {
         padding: 0 1.5rem 1.5rem;
     }
 
-    .service-image[alt="UBI Therapy"],
-    .service-image[alt="EBOO"],
-    .service-image[alt="EBO₂"] {
-        height: auto;
-        object-fit: contain;
-    }
+    /* Therapy image specific styling removed */
 
     .conditions-wrapper {
         padding: 2rem 1.5rem;
