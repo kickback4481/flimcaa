@@ -573,7 +573,7 @@ section {
 .hero-bg {
     position: absolute;
     inset: 0;
-    background: url('Hero.jpg') right 30% / cover no-repeat;
+    background: url('web.png') right 30% / cover no-repeat;
     z-index: 0;
 }
 
